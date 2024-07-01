@@ -21,6 +21,8 @@ public void setUp(){
 
 @Test
     public void gmailSignIn(){
+
     page.clickSignInBtn();
+    System.out.println("New step");
 }
 }
