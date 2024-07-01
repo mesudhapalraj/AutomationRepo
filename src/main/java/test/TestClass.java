@@ -23,6 +23,6 @@ public void setUp(){
     public void gmailSignIn(){
 
     page.clickSignInBtn();
-    System.out.println("New step");
+    System.out.println("feature/test");
 }
 }
