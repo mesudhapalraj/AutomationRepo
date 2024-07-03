@@ -1,3 +1,22 @@
 name: TestRun
 
 on:
+  push:
+    branches:
+      - main
+
+    branches-ignore:
+      - feature/test
+
+  pull_request:
+    types: [opened, synchronize]
+
+  issues:
+    types:
+      - opened
+      - labeled
+
+
+
+
+
